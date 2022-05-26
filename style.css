@@ -1,0 +1,25 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.title-head {
+    text-align: center;
+}
+
+.sig-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 4em;
+    margin-top: 6em;
+    text-align: center;
+}
+
+.sig-grid a {
+    text-decoration: none;
+    color: #971F27;
+}
+
+.sig-grid a:hover {
+    color:#99010b;
+}
