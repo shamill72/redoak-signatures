@@ -30,7 +30,7 @@ td {
 }
 
 a {
-    text-decoration: none; 
+    text-decoration: none !important; 
     color: #971F27;
     font-size: 9pt;
 }
